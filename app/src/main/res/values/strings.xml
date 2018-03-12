@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Планировщик задач</string>
+    <string name="app_Start">Каледарь</string>
+    <string name="date">Date</string>
+    <string name="default_date">0000/00/00</string>
+    <string name="Title">Заголовок</string>
+    <string name="Body">Текст</string>
+    <string name="Save_Button">Сохранить заметку</string>
+    <string name="Test_Button">Test</string>
+    <string name="Delete_Button">Удалить заметку</string>
+    <string name="View_Button">View DB</string>
+    <string name="Empty" />
+    <string name="SpisokDel">Список дел:</string>
+    <string name="AddDescription">Add_button</string>
+    <string name="DeleteDiscription">Delete_button</string>
+    <string name="input_main_part">Input main part</string>
+    <string name="input_title">Input title</string>
+    <string name="PhotoDescription">Photo_button</string>
+    <string name="ImageDescription">ImageFrom camera</string>
+    <string name="Update1">Обновить список задач</string>
+    <string name="Settings">Настройки</string>
+    <string name="Default_time">00:00</string>
+    <string name="SoundChecker">"Звуковое оповещение "</string>
+    <string name="AddPhoto">Добавить фото</string>
+    <string name="AddPainting">Добавить рисунок</string>
+    <string name="SoundNotification">"Звуковое оповещение "</string>
+    <string-array name="DelayList">
+        <item>Напомнить в начале дня</item>
+        <item>Напомнить за 1 час</item>
+        <item>Напомнить за 6 часов</item>
+        <item>Напомнить за 12 часов</item>
+        <item>Напомнить за 1 день</item>
+        <item>Напомнить за 3 день</item>
+        <item>Напомнить за 1 неделю</item>
+    </string-array>
+</resources>

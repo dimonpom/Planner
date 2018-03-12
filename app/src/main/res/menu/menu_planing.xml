@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mi_delete"
+        android:icon="@mipmap/ic_delete"
+        android:title=""
+        android:visible="false"
+        android:onClick="deleteData"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mi_add"
+        android:icon="@mipmap/ic_add"
+        android:title=""
+        android:onClick="saveData"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mi_addphoto"
+        android:title="@string/AddPhoto"
+        android:onClick="photoActivator"/>
+
+    <item
+        android:id="@+id/mi_addpainting"
+        android:title="@string/AddPainting"
+        android:onClick="OpenPainting"/>
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/app_bar_switch"
+        android:title="@string/SoundNotification"
+        app:actionLayout="@layout/switch_item"
+        app:showAsAction="never"/>
+    </group>
+
+</menu>
