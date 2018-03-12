@@ -60,12 +60,6 @@ public class DrawingView extends View{
         invalidate();
     }
 
-    @Override
-    protected void onSizeChanged(int w, int h, int oldw, int oldh) {
-        super.onSizeChanged(w, h, oldw, oldh);
-        cancasBimap = Bitmap.createBitmap(w, h, Bitmap.Config.ARGB_8888);
-        drawCanvas = new Canvas(cancasBimap);
-    }
 
     @Override
     protected void onDraw(Canvas canvas) {
@@ -92,7 +86,7 @@ public class DrawingView extends View{
             default:
                 return false;
         }
-        // Force a view to draw again
+
         invalidate();
         return true;
     }
